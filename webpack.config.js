@@ -58,7 +58,8 @@ var config = {
                 exclude: /(node_modules)/,
                 loader: 'babel-loader',
                 query: {
-                    presets: ['es2015']
+                    // presets: ['es2015']
+                    presets: ['env']
                 }
             },
             {
@@ -66,7 +67,8 @@ var config = {
                 exclude: /(node_modules)/,
                 loader: 'babel-loader',
                 query: {
-                    presets: ['react', 'es2015']
+                    // presets: ['react', 'es2015']
+                    presets: ['react', 'env']
                 }
             },
         ]
@@ -82,7 +84,7 @@ var config = {
         // html 加载
         new HtmlWebpackPlugin({
             filename        : 'view/index.html',
-            title           : 'MMall 后台管理系统',
+            title           : 'YeMall 后台管理系统',
             template        : './src/index.html',
             favicon         : './favicon.ico',
             inject          : true,
