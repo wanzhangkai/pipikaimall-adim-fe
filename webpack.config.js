@@ -13,6 +13,7 @@ var HtmlWebpackPlugin   = require('html-webpack-plugin');
 
 // 环境变量, dev, (test), online
 var WEBPACK_ENV            = process.env.WEBPACK_ENV || 'dev'; 
+console.log(WEBPACK_ENV);
 
 // webpack config
 var config = {
