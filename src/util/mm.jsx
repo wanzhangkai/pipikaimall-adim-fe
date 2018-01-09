@@ -4,9 +4,9 @@
 
 const conf = {
     // online
-    serverHost: 'http://admin.pipikai.xin'
+    //serverHost: 'http://admin.pipikai.xin'
     // dev
-    //serverHost: '',
+    serverHost: '',
     imageHost: 'http://img.pipikai.xin/',
 }
 

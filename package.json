@@ -4,9 +4,9 @@
   "description": "admin.pipikai.xin",
   "main": "index.js",
   "scripts": {
-    "dev"     : "WEBPACK_ENV=dev webpack-dev-server --port 8086 --inline --secure false",
-    "dev_win" : "set WEBPACK_ENV=dev && webpack-dev-server --port 8086 --inline --secure false",
-    "dist"    : "WEBPACK_ENV=online webpack -p",
+    "dev": "WEBPACK_ENV=dev webpack-dev-server --port 8086 --inline --secure false",
+    "dev_win": "set WEBPACK_ENV=dev && webpack-dev-server --port 8086 --inline --secure false",
+    "dist": "WEBPACK_ENV=online webpack -p",
     "dist_win": "set WEBPACK_ENV=online && webpack -p"
   },
   "repository": {
@@ -28,9 +28,9 @@
     "simditor": "^2.3.6"
   },
   "devDependencies": {
-    "babel-core": "^6.9.1",
+    "babel-core": "^6.25.0",
     "babel-loader": "^6.2.4",
-    "babel-preset-env": "^1.6.0",
+    "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.5.0",
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^2.1.0",
